@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package>
+  <name>multi_target_tracking</name>
+  <version>0.1.0</version>
+  <description>Multi-target tracking package with distributed Kalman filters and Murty assignment algorithm</description>
+
+  <maintainer email="gentlywoven@posteo.de">gentlywoven</maintainer>
+  <license>GPLv3</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Build dependencies -->
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>model_distance_from_height</build_depend>
+
+  <!-- Runtime dependencies -->
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>message_runtime</run_depend>
+  <run_depend>model_distance_from_height</run_depend>
+
+  <!-- Python dependencies (for documentation) -->
+  <!-- These are handled by pyproject.toml for the Python package build -->
+  <!-- numpy>=1.24.0, pandas>=2.0.0, matplotlib>=3.7.0, scipy>=1.10.0, pyehm>=2.0a1 -->
+
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+  </export>
+</package>

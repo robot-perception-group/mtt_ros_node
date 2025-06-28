@@ -1,0 +1,3 @@
+[submodule "multi_target_tracking"]
+	path = multi_target_tracking
+	url = git@github.com:robot-perception-group/multi_target_tracking.git
